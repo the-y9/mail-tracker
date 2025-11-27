@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-    const YOUR_GOOGLE_SCRIPT_WEBHOOK_URL_HERE = "https://script.google.com/macros/s/AKfycbwwDmBu9FkCBA0Gg3Zis04_K1Qz49QiS5JDKjUR5Bgu6CmrdB_NksVWKziTTmIyEofrPQ/exec"
+    const YOUR_GOOGLE_SCRIPT_WEBHOOK_URL_HERE = "https://script.google.com/macros/s/AKfycbzX6GfIKdH9W3ZLsj1RbAfYv5GqD-MVWWe6ToSJFvGRxkJP5ytIa_FaUEFOnK7P95AlSw/exec"
     try {
       const user_id = req.query.id || "unknown";
       const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
